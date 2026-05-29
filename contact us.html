@@ -3,49 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contact-NAVIGA CLOTHING</title>
+    <title>contact naviga clothing</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <header>
+    
+    <header>
     <h1>NAVIGA CLOTHING</h1>
+    <p>navigate our own style</p>
     <nav>
      <a href="index.html">home</a>
      <a href="about us.html">about us</a>
      <a href="product.html">products</a>
      <a href="order.html">order</a>
-     <a href="contact us.html">contact us</a>   
+     <a href="contact us.html">contact us</a>
     </nav>
-   </header>
+    </header>
+    
+    <section class="hero">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, inquiries, or feedback, please feel free to reach out to us. We would love to hear from you!</p>
 
-   <hr>
+        <h3>get in touch</h3>
 
-   <main>
-    <section>
-    <h2>contact us</h2>
-    <p>Email:Navigaclothing@gmail.com</p>
-    <p>phone:0712345678</p>
-    <p>location:johannesburg,south africa</p>
+        <p>if u have any questions, please don't hesitate to contact us!</p>
+        <table></table>
+            <tr>
+                <td>Email:</td>
+                <td><a href="mailto:info@navigaclothing.com">info@navigaclothing.com</a></td>
+            </tr>
+            <tr>
+                <td>Phone:</td>
+                <p>0712345678</p>
+
+            
+            <td class="product-card">
+                <h3>location</h3>
+                <p>johanesburg, south africa</p>
+         </td>
+         </tr>
+        </table>
+
     </section>
-
-    <hr>
+    
 
     <section>
-        <h3>send a message</h3>
+        <h2>Send us a Message</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
 
-        <form>
-            <input type="text"placeholder="your name"><br><br>
-            <input type="text"placeholder="your Email"><br><br>
-            <textarea placeholder="your message"></textarea><br><br>
-            <button type="submit">send</button>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
         </form>
     </section>
-</main>
-    <hr>
 
-    <footer style="align-items: center;">
+    <section>
+        <h2>business hours</h2>
+        <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+        <p>Saturday: 10:00 AM - 4:00 PM</p>
+        <p>Sunday: Closed</p>
+    </section>
+
+    <footer>
         <p>&copy;2026 NAVIGA CLOTHING</p>
     </footer>
 
-    
+
 </body>
 </html>
+
+
+
+
+
+
+
